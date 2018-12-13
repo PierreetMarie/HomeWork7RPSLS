@@ -1,0 +1,84 @@
+body {
+	background-color: rgb(51, 42, 104); /* pink */
+	font-family: 'Anton', sans-serif; /* titles */
+	font-size: 2em;
+}
+span {
+	font-size: 2em;
+}
+.bkg {
+	background-image: url('../img/star.png');
+	background-position: center;
+	background-size: cover;
+	width: 100vw;
+	min-height: 100vh;
+	height: auto;
+	overflow: hidden;
+}
+.container-head {
+	background-color: rgb(9, 20, 70); /* egglant */
+	padding: 1.5em;
+	position: relative;
+	top: 2em;
+}
+.row-head {
+}
+.col-title-pic {
+	width: auto;
+	padding-right: 2em;
+}
+.title-pic {
+	width: 150px;
+	height: auto;
+}
+.col-title {
+	color: rgba(252, 176, 64, 1);  /* yellow */
+	padding: calc((150px - 4em)/2) 0 0 0;
+	margin: 0;
+	width: calc(100% - 150px - 4em);
+}
+.col-title h1 {
+	font-size: 4em;
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif; /* titles */
+	line-height: 1;
+	letter-spacing: 0.1em;
+}
+@media screen and (max-width: 1088px) and (min-width: 830px) {
+	.col-title {
+		padding: calc((150px - 2.75em)/2) 0 0 0;
+	}
+	.col-title h1 {
+		font-size: 2.75em;
+	}
+}
+@media screen and (max-width: 829px) and (min-width: 570px) {
+	.col-title {
+		padding: calc((150px - 5.5em)/2) 0 0 0;
+	}
+	.col-title h1 {
+		font-size: 2.75em;
+	}
+}
+@media screen and (max-width: 569px) and (min-width: 513px) {
+	.col-title {
+		padding: calc((150px - 4.5em)/2) 0 0 0;
+	}
+	.col-title h1 {
+		font-size: 2.25em;
+	}
+}
+@media screen and (max-width: 512px) {
+	.col-title {
+		padding: calc((150px - 6.75em)/2) 0 0 0;
+	}
+	.col-title h1 {
+		font-size: 2.25em;
+	}
+	.col-title-pic {
+		margin: 0;
+		padding: 0 .75em 0 .25em;
+	}
+}
+
